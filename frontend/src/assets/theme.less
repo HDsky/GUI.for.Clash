@@ -1,0 +1,254 @@
+:root {
+  --color-primary: rgb(0, 89, 214);
+
+  // Color & BackgroundColor
+  --color-light: #000;
+  --bg-light: rgba(255, 255, 255, 0.4);
+  --color-dark: #fff;
+  --bg-dark: rgba(0, 0, 0, 0.4);
+
+  // Scrollbar
+  --scrollbar-track-bg-light: rgb(177, 177, 177);
+  --scrollbar-thumb-bg-light: var(--color-primary);
+  --scrollbar-track-bg-dark: rgb(173, 173, 173);
+  --scrollbar-thumb-bg-dark: var(--color-primary);
+
+  // Button
+  --btn-normal-color-light: #000000;
+  --btn-normal-bg-light: rgb(255, 255, 255);
+  --btn-normal-hover-color-light: var(--color-primary);
+  --btn-normal-hover-border-color-light: var(--color-primary);
+  --btn-normal-active-color-light: rgb(0, 60, 145);
+  --btn-normal-active-border-color-light: rgb(0, 60, 145);
+
+  --btn-normal-color-dark: #000000;
+  --btn-normal-bg-dark: rgb(255, 255, 255);
+  --btn-normal-hover-color-dark: var(--color-primary);
+  --btn-normal-hover-border-color-dark: var(--color-primary);
+  --btn-normal-active-color-dark: rgb(0, 60, 145);
+  --btn-normal-active-border-color-dark: rgb(0, 60, 145);
+
+  --btn-primary-color-light: rgb(255, 255, 255);
+  --btn-primary-bg-light: var(--color-primary);
+  --btn-primary-hover-bg-light: rgb(40, 121, 235);
+  --btn-primary-active-bg-light: rgb(9, 78, 173);
+
+  --btn-primary-color-dark: rgb(255, 255, 255);
+  --btn-primary-bg-dark: var(--color-primary);
+  --btn-primary-hover-bg-dark: rgb(40, 121, 235);
+  --btn-primary-active-bg-dark: rgb(9, 78, 173);
+
+  --btn-link-color-light: var(--color-primary);
+  --btn-link-bg-light: transparent;
+  --btn-link-hover-color-light: rgb(40, 121, 235);
+  --btn-link-active-color-light: rgb(9, 78, 173);
+
+  --btn-link-color-dark: rgb(98, 163, 254);
+  --btn-link-bg-dark: transparent;
+  --btn-link-hover-color-dark: rgb(40, 121, 235);
+  --btn-link-active-color-dark: rgb(9, 78, 173);
+
+  --btn-text-color-light: rgb(46, 46, 46);
+  --btn-text-bg-light: transparent;
+  --btn-text-hover-bg-light: rgb(232, 232, 232);
+  --btn-text-active-bg-light: rgb(206, 206, 206);
+
+  --btn-text-color-dark: rgb(230, 230, 230);
+  --btn-text-bg-dark: transparent;
+  --btn-text-hoer-color-dark: #222222;
+  --btn-text-hover-bg-dark: rgb(232, 232, 232);
+  --btn-text-active-color-dark: #525252;
+  --btn-text-active-bg-dark: rgb(206, 206, 206);
+
+  // Radio
+  --radio-normal-color-light: #000;
+  --radio-normal-bg-light: #fff;
+  --radio-normal-hover-color-light: rgb(40, 121, 235);
+  --radio-primary-color-light: #fff;
+  --radio-primary-bg-light: var(--color-primary);
+  --radio-primary-hover-bg-light: rgb(40, 121, 235);
+  --radio-primary-active-bg-light: rgb(9, 78, 173);
+
+  --radio-normal-color-dark: #ededed;
+  --radio-normal-bg-dark: #434343;
+  --radio-normal-hover-color-dark: rgb(40, 121, 235);
+  --radio-primary-color-dark: #fff;
+  --radio-primary-bg-dark: var(--color-primary);
+  --radio-primary-hover-bg-dark: rgb(40, 121, 235);
+  --radio-primary-active-bg-dark: rgb(9, 78, 173);
+
+  // Card
+  --card-color-light: rgb(95, 95, 95);
+  --card-bg-light: rgba(255, 255, 255, 0.6);
+  --card-hover-bg-light: rgba(255, 255, 255, 1);
+  --card-active-bg-light: rgba(255, 255, 255, 0.6);
+
+  --card-color-dark: rgb(255, 255, 255);
+  --card-bg-dark: rgba(44, 44, 44, 0.6);
+  --card-hover-bg-dark: rgb(61, 61, 61);
+  --card-active-bg-dark: rgba(80, 80, 80, 0.6);
+
+  // Progress
+  --progress-bg-light: rgba(0, 0, 0, 0.08);
+  --progress-inner-bg-light: rgb(40, 121, 235);
+
+  --progress-bg-dark: rgba(221, 221, 221, 0.08);
+  --progress-inner-bg-dark: var(--color-primary);
+
+  // Dropdown
+  --dropdown-bg-light: rgba(255, 255, 255, 0.9);
+  --dropdown-bg-dark: rgb(78, 78, 78);
+
+  // Modal
+  --modal-color-light: rgb(95, 95, 95);
+  --modal-bg-light: rgba(255, 255, 255, 0.7);
+  --modal-mask-bg-light: rgba(255, 255, 255, 0.4);
+  --modal-color-dark: rgb(95, 95, 95);
+  --modal-bg-dark: rgba(0, 0, 0, 0.6);
+  --modal-mask-bg-dark: rgba(28, 28, 28, 0.4);
+
+  // Switch
+  --switch-on-bg-light: var(--color-primary);
+  --switch-on-dot-bg-light: #fff;
+  --switch-on-bg-dark: var(--color-primary);
+  --switch-on-dot-bg-dark: #fff;
+
+  --switch-off-bg-light: #bfbfbf;
+  --switch-off-dot-bg-light: #fff;
+  --switch-off-bg-dark: #bfbfbf;
+  --switch-off-dot-bg-dark: #fff;
+}
+
+/* Theme: Light Config */
+:root body[theme-mode='light'] {
+  --color: var(--color-light);
+  --bg-color: var(--bg-light);
+
+  // Scrollbar
+  --scrollbar-track-bg: var(--scrollbar-track-bg-light);
+  --scrollbar-thumb-bg: var(--scrollbar-thumb-bg-light);
+
+  // Button
+  --btn-normal-color: var(--btn-normal-color-light);
+  --btn-normal-bg: var(--btn-normal-bg-light);
+  --btn-normal-hover-color: var(--btn-normal-hover-color-light);
+  --btn-normal-hover-border-color: var(--btn-normal-hover-border-color-light);
+  --btn-normal-active-color: var(--btn-normal-active-color-light);
+  --btn-normal-active-border-color: var(--btn-normal-active-border-color-light);
+
+  --btn-primary-color: var(--btn-primary-color-light);
+  --btn-primary-bg: var(--btn-primary-bg-light);
+  --btn-primary-hover-bg: var(--btn-primary-hover-bg-light);
+  --btn-primary-active-bg: var(--btn-primary-active-bg-light);
+
+  --btn-link-color: var(--btn-link-color-light);
+  --btn-link-bg: var(--btn-link-bg-light);
+  --btn-link-hover-color: var(--btn-link-hover-color-light);
+  --btn-link-active-color: var(--btn-link-active-color-light);
+
+  --btn-text-color: var(--btn-text-color-light);
+  --btn-text-bg: var(--btn-text-bg-light);
+  --btn-text-hover-bg: var(--btn-text-hover-bg-light);
+  --btn-text-active-bg: var(--btn-text-active-bg-light);
+
+  // Radio
+  --radio-normal-color: var(--radio-normal-color-light);
+  --radio-normal-bg: var(--radio-normal-bg-light);
+  --radio-normal-hover-color: var(--radio-normal-hover-color-light);
+  --radio-primary-color: var(--radio-primary-color-light);
+  --radio-primary-bg: var(--radio-primary-bg-light);
+  --radio-primary-hover-bg: var(--radio-primary-hover-bg-light);
+  --radio-primary-active-bg: var(--radio-primary-active-bg-light);
+
+  // Card
+  --card-color: var(--card-color-light);
+  --card-bg: var(--card-bg-light);
+  --card-hover-bg: var(--card-hover-bg-light);
+  --card-active-bg: var(--card-active-bg-light);
+
+  // Progress
+  --progress-bg: var(--progress-bg-light);
+  --progress-inner-bg: var(--progress-inner-bg-light);
+
+  // Dropdown
+  --dropdown-bg: var(--dropdown-bg-light);
+
+  // Modal
+  --modal-color: var(--modal-color-light);
+  --modal-bg: var(--modal-bg-light);
+  --modal-mask-bg: var(--modal-mask-bg-light);
+
+  // Switch
+  --switch-on-bg: var(--switch-on-bg-light);
+  --switch-on-dot-bg: var(--switch-on-dot-bg-light);
+  --switch-off-bg: var(--switch-off-bg-light);
+  --switch-off-dot-bg: var(--switch-off-dot-bg-light);
+}
+
+/* Theme: Dark Config */
+:root body[theme-mode='dark'] {
+  --color: var(--color-dark);
+  --bg-color: var(--bg-dark);
+
+  // Scrollbar
+  --scrollbar-track-bg: var(--scrollbar-track-bg-dark);
+  --scrollbar-thumb-bg: var(--scrollbar-thumb-bg-dark);
+
+  // Button
+  --btn-normal-color: var(--btn-normal-color-dark);
+  --btn-normal-bg: var(--btn-normal-bg-dark);
+  --btn-normal-hover-color: var(--btn-normal-hover-color-dark);
+  --btn-normal-hover-border-color: var(--btn-normal-hover-border-color-dark);
+  --btn-normal-active-color: var(--btn-normal-active-color-dark);
+  --btn-normal-active-border-color: var(--btn-normal-active-border-color-dark);
+
+  --btn-primary-color: var(--btn-primary-color-dark);
+  --btn-primary-bg: var(--btn-primary-bg-dark);
+  --btn-primary-hover-bg: var(--btn-primary-hover-bg-dark);
+  --btn-primary-active-bg: var(--btn-primary-active-bg-dark);
+
+  --btn-link-color: var(--btn-link-color-dark);
+  --btn-link-bg: var(--btn-link-bg-dark);
+  --btn-link-hover-color: var(--btn-link-hover-color-dark);
+  --btn-link-active-color: var(--btn-link-active-color-dark);
+
+  --btn-text-color: var(--btn-text-color-dark);
+  --btn-text-bg: var(--btn-text-bg-dark);
+  --btn-text-hover-bg: var(--btn-text-hover-bg-dark);
+  --btn-text-active-bg: var(--btn-text-active-bg-dark);
+  --btn-text-hover-color: var(--btn-text-hoer-color-dark);
+  --btn-text-active-color: var(--btn-text-hoer-color-dark);
+
+  // Radio
+  --radio-normal-color: var(--radio-normal-color-dark);
+  --radio-normal-bg: var(--radio-normal-bg-dark);
+  --radio-normal-hover-color: var(--radio-normal-hover-color-dark);
+  --radio-primary-color: var(--radio-primary-color-dark);
+  --radio-primary-bg: var(--radio-primary-bg-dark);
+  --radio-primary-hover-bg: var(--radio-primary-hover-bg-dark);
+  --radio-primary-active-bg: var(--radio-primary-active-bg-dark);
+
+  // Card
+  --card-color: var(--card-color-dark);
+  --card-bg: var(--card-bg-dark);
+  --card-hover-bg: var(--card-hover-bg-dark);
+  --card-active-bg: var(--card-active-bg-dark);
+
+  // Progress
+  --progress-bg: var(--progress-bg-dark);
+  --progress-inner-bg: var(--progress-inner-bg-dark);
+
+  // Dropdown
+  --dropdown-bg: var(--dropdown-bg-dark);
+
+  // Modal
+  --modal-color: var(--modal-color-dark);
+  --modal-bg: var(--modal-bg-dark);
+  --modal-mask-bg: var(--modal-mask-bg-dark);
+
+  // Switch
+  --switch-on-bg: var(--switch-on-bg-dark);
+  --switch-on-dot-bg: var(--switch-on-dot-bg-dark);
+  --switch-off-bg: var(--switch-off-bg-dark);
+  --switch-off-dot-bg: var(--switch-off-dot-bg-dark);
+}
