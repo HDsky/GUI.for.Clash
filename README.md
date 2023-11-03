@@ -12,6 +12,10 @@
   <img src="https://img.shields.io/github/go-mod/go-version/openrhc/GUI.for.Clash?style=flat-square">
 </p>
 
+## 我操了
+
+我操了，昨天刚推了 GUI 代码，今天三大内核就删库了，怎么玩？怎么玩？？
+
 ## Features
 
 - Supported kernels：Clash、Premium、Clash.Meta
