@@ -27,3 +27,13 @@
 - Conveniently generate configuration files.
 
 <!-- ## Documentation -->
+
+## Preview
+
+![img01](./docs/1.png)
+![img02](./docs/2.png)
+![img03](./docs/3.png)
+![img04](./docs/4.png)
+![img05](./docs/5.png)
+![img06](./docs/6.png)
+![img07](./docs/7.png)
